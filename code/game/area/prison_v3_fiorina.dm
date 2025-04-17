@@ -162,11 +162,6 @@
 	name = "Fiorina - Park"
 	icon_state = "station0"
 
-/area/fiorina/station/clf_ship
-	name = "Tramp Freighter \"Rocinante\""
-	icon_state = "security_hub"
-	ceiling = CEILING_METAL
-
 /area/fiorina/station/transit_hub
 	name = "Fiorina - Transit Hub"
 	icon_state = "station1"

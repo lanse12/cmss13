@@ -1,9 +1,0 @@
-[
-    {
-        "type": "pick", "name": "event",
-        "choices": [
-            { "weight": 9, "type": "def", "values": { "lvevent": "none" } },
-            { "weight": 1, "type": "def", "values": { "lvevent": "clfraid" } }
-        ]
-    }
-]
