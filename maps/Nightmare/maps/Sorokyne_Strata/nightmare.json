@@ -2,12 +2,5 @@
     {
         "type": "map_sprinkle",
         "path": "sprinkles/"
-    },
-    {
-		"type": "map_insert",
-		"landmark": "clfcrash",
-		"chance": 1.0,
-		"path": "standalone/clfcamp.dmm",
-		"when": { "lvevent": "clfcrash" }
-	}
+    }
 ]
