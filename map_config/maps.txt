@@ -63,8 +63,5 @@ endmap
 map new_varadero
 endmap
 
-map tyrargo_rift
-endmap
-
 map whiskey_outpost_v2
 endmap
