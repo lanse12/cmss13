@@ -81,10 +81,6 @@
 	. = ..()
 	if(!. || !hivenumber)
 		return
-	if(ismonkey(target)) // So they don't kill Monkeys that Xenos need
-		return FALSE
-	if(ismouse(target)) // Mice and rats are beneath the Xenomorphs notice
-		return FALSE
 	if(istype(target, /mob/living/simple_animal/hostile/alien))
 		var/mob/living/simple_animal/hostile/alien/alien_target = target
 		if(alien_target.hivenumber == hivenumber)
@@ -180,6 +176,3 @@
 
 	pixel_x = -12
 	old_x = -12
-
-/mob/living/simple_animal/hostile/alien/no_harm_animal
-	faction_group = list(FACTION_XENOMORPH, FACTION_MONKEY, FACTION_NEUTRAL)

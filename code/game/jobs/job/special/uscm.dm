@@ -17,13 +17,3 @@
 
 /datum/job/special/uscm/tech
 	title = JOB_SQUAD_TECH
-
-// US Army
-/datum/job/special/uscm/trooper
-	title = JOB_ARMY_TROOPER
-
-/datum/job/special/uscm/cet
-	title = JOB_ARMY_ENGI
-
-/datum/job/special/uscm/cmt
-	title = JOB_ARMY_MEDIC

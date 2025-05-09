@@ -324,7 +324,9 @@
 	icon_overlay = "_shallow"
 	var/toxic = 0
 	default_name = "water"
-	weedable = NOT_WEEDABLE
+
+/turf/open/gm/river/desert/is_weedable()
+	return NOT_WEEDABLE
 
 /turf/open/gm/river/desert/update_icon()
 	..()
@@ -626,28 +628,3 @@
 
 /turf/open/desert/excavation/component9/west
 	dir = WEST
-
-// Tyrargo
-
-//shallow water
-/turf/open/gm/river/desert/tyrargo
-	icon_state = "seashallow"
-	icon_overlay = "_seashallow"
-
-/turf/open/gm/river/desert/tyrargo/no_slowdown
-	base_river_slowdown = 0
-
-/turf/open/gm/river/desert/tyrargo/covered
-	covered = TRUE
-	icon = 'icons/turf/floors/desert_water_covered.dmi'
-
-/turf/open/gm/river/desert/tyrargo/deep
-	icon_state = "seadeep"
-	icon_overlay = "_seadeep"
-
-/turf/open/gm/river/desert/tyrargo/deep/no_slowdown
-	base_river_slowdown = 0
-
-/turf/open/gm/river/desert/tyrargo/deep/covered
-	covered = TRUE
-	icon = 'icons/turf/floors/desert_water_covered.dmi'
